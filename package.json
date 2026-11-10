@@ -1,0 +1,10 @@
+{
+  "name": "duyuexing",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node work/build-online.cjs",
+    "build:pages": "node work/build-online.cjs --pages",
+    "start": "node work/serve-online.cjs"
+  }
+}
